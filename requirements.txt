@@ -1,0 +1,18 @@
+# Analysis notebooks
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+matplotlib>=3.8
+seaborn>=0.13
+folium>=0.17
+requests>=2.31
+beautifulsoup4>=4.12
+ipython-sql>=0.5
+sqlalchemy>=2.0
+prettytable>=3.9
+jupyter
+
+# Dashboard
+dash>=2.17
+plotly>=5.20
+gunicorn>=22.0

@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: spacex-launch-dashboard
+    runtime: python
+    plan: free
+    buildCommand: pip install dash plotly pandas gunicorn
+    startCommand: gunicorn app.spacex_dash_app:server --bind 0.0.0.0:$PORT
