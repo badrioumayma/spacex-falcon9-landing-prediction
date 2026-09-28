@@ -90,7 +90,7 @@ Notebook 08 re-evaluates every model with **5-fold cross-validation repeated 20 
 
 ```bash
 git clone https://github.com/badrioumayma/IBM-Applied-Data-Science-Capstone.git
-cd IBM-Applied-Data-Science-Capstone
+cd spacex-falcon9-landing-prediction
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
