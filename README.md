@@ -53,9 +53,16 @@ Wikipedia (HTML) ┘                          │
 <img src="images/launch_sites_map.png" width="700" alt="Map of launch sites with outcome clusters">
 <img src="images/proximity_map.png" width="700" alt="Distances from CCAFS SLC-40 to the coastline, railway and city">
 
-**Dashboard:** filter by launch site and payload range to explore outcomes interactively.
+## Interactive dashboard
 
-<img src="images/dashboard.png" width="700" alt="Plotly Dash dashboard">
+A Plotly Dash app ([`app/spacex_dash_app.py`](app/spacex_dash_app.py)) for exploring the launches yourself:
+
+- **Filters:** choose a launch site and a payload mass range.
+- **Summary cards:** launches shown, landing success rate, successful landings and average payload.
+- **Success rate by launch site:** a bar chart that highlights the selected site.
+- **Payload vs. landing outcome:** each launch plotted as *Landed* or *Failed*, coloured by booster version.
+
+<img src="images/dashboard.png" width="800" alt="SpaceX Falcon 9 landing dashboard with filters, summary cards and charts">
 
 ## Modeling: why a single test split is not enough
 
